@@ -73,7 +73,7 @@ try {
     $result = $mail->send();
 
     // Redirige al usuario al home page
-    echo '<script>window.location.href = "../confirmacion.html";</script>';
+    echo '<script>window.location.href = "../index.html";</script>';
 
 } catch (Exception $e) {
     echo 'Error sending the email: ', $mail->ErrorInfo;
