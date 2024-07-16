@@ -73,7 +73,7 @@ try {
     $mail->Body = $message;
 
     $result = $mail->send();
-    
+    echo '<script>window.location.href = "email_confirmation.html";</script>';
     
 
 } catch (Exception $e) {
