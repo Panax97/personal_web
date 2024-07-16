@@ -75,7 +75,7 @@ try {
     $result = $mail->send();
 
 
-    echo 'Mama me lele';
+    echo $result;
 
 } catch (Exception $e) {
   echo 'Error sending the email: ', $mail->ErrorInfo;
