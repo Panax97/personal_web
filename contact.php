@@ -75,7 +75,7 @@ try {
     $result = $mail->send();
     if ($result) {
       // Redirige a la página de confirmación
-      header('Location: email_confirmation.html');
+      echo '<div class="sent-message">Azucaaa: </div>';
       exit();
   }
 
