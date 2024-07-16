@@ -73,6 +73,7 @@ try {
     $mail->Body = $message;
 
     $result = $mail->send();
+    $result = 0;
 
 
     echo $result;
