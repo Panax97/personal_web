@@ -76,7 +76,7 @@ try {
 
     if ($result) {
       // Redirige al usuario con mensaje de éxito
-      header('Location: https://piainsights.com/email_confirmation.html');
+      header('Location: https://piainsights.com/email_confirmation.html?result=' . ($result ? 'success' : 'error'));
       exit();
   } else {
       // Redirige al usuario con mensaje de error
