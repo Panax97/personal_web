@@ -74,7 +74,7 @@ try {
 
     $result = $mail->send();
     
-    echo window.location.replace("https://google.com/");
+    
 
 } catch (Exception $e) {
   echo '<div class="error-message">Error sending the email: ' . $mail->ErrorInfo . '</div>';
