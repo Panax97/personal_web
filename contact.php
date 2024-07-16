@@ -73,11 +73,14 @@ try {
     $mail->Body = $message;
 
     $result = $mail->send();
-    echo '<script>window.location.href = "email_confirmation.html";</script>';
+    if ($result) {
+      // Redirige a la página de confirmación
+      header('Location: email_confirmation.html');
+      exit();
+  }
 
 } catch (Exception $e) {
-  echo 'Error sending the email: ', $mail->ErrorInfo;
-  
+  echo '<div class="error-message">Error sending the email: ' . $mail->ErrorInfo . '</div>';
 }
 }
 ?>
