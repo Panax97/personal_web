@@ -563,6 +563,18 @@
 							<button class="text-center" type="submit">Get a free quote</button>
 						</form>
 
+						<script>
+							// Captura los parámetros de la URL
+							const urlParams = new URLSearchParams(window.location.search);
+							const status = urlParams.get('status');
+
+							if (status === 'success') {
+								document.querySelector('.sent-message').classList.remove('hidden');
+							} else if (status === 'error') {
+								document.querySelector('.error-message').classList.remove('hidden');
+							}
+						</script>
+
 					</div>
 
 				</div>
