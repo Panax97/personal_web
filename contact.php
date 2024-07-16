@@ -8,6 +8,8 @@ require 'assets/PHPMailer/src/Exception.php';
 require 'assets/PHPMailer/src/PHPMailer.php';
 require 'assets/PHPMailer/src/SMTP.php';
 
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
 // Instancia PHPMailer
 $mail = new PHPMailer(true);
 $customerName = $_POST['name'];
@@ -79,5 +81,6 @@ try {
 } catch (Exception $e) {
   header('Location: https://piainsights.com/form_page.html?status=error');
         exit();
+}
 }
 ?>
