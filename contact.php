@@ -73,13 +73,13 @@ try {
     $mail->Body = $message;
 
     $result = $mail->send();
-    return true;
 
-    echo '<script>window.location.href = "email_confirmation.html";</script>';
+
+    echo 'Mama me lele';
 
 } catch (Exception $e) {
   echo 'Error sending the email: ', $mail->ErrorInfo;
-  return false;
+  
 }
 }
 ?>
