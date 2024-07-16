@@ -72,10 +72,12 @@ try {
 
     $result = $mail->send();
 
-    // Redirige al usuario al home page
-    echo '<script>window.location.href = "../index.html";</script>';
+    // Redirige al usuario con mensaje de éxito
+    header('Location: https://piainsights.com/index.html?status=success');
+    exit();
 
 } catch (Exception $e) {
-    echo 'Error sending the email: ', $mail->ErrorInfo;
+  header('Location: https://piainsights.com/index.html?status=error');
+    exit();
 }
 ?>
