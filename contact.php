@@ -73,11 +73,8 @@ try {
     $mail->Body = $message;
 
     $result = $mail->send();
-    if ($result) {
-      // Redirige a la página de confirmación
-      echo '<div class="sent-message">Azucaaa: </div>';
-      exit();
-  }
+    
+    echo window.location.replace("https://google.com/");
 
 } catch (Exception $e) {
   echo '<div class="error-message">Error sending the email: ' . $mail->ErrorInfo . '</div>';
