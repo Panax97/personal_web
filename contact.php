@@ -53,7 +53,7 @@ tr:nth-child(even) {
 </body>
 </html>";
 
-
+try {
     // Configura el servidor SMTP de Gmail
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
@@ -73,9 +73,13 @@ tr:nth-child(even) {
     $mail->Body = $message;
 
     $result = $mail->send();
+    return true;
 
     echo '<script>window.location.href = "email_confirmation.html";</script>';
 
-
+} catch (Exception $e) {
+  echo 'Error sending the email: ', $mail->ErrorInfo;
+  return false;
+}
 }
 ?>
