@@ -74,19 +74,10 @@ try {
 
     $result = $mail->send();
 
-    if ($result) {
-      // Redirige al usuario con mensaje de éxito
-      header('Location: https://piainsights.com/email_confirmation.html?result=' . ($result ? 'success' : 'error'));
-      exit();
-  } else {
-      // Redirige al usuario con mensaje de error
-      header('Location: https://piainsights.com/form_page.html?status=error');
-      exit();
-  }
+    echo '<script>window.location.href = "email_confirmation.html";</script>';
 
 } catch (Exception $e) {
-  header('Location: https://piainsights.com/form_page.html?status=error');
-        exit();
+  echo 'Error sending the email: ', $mail->ErrorInfo;
 }
 }
 ?>
