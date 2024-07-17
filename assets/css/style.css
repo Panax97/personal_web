@@ -1556,3 +1556,12 @@ section {
 .botoncustom button[type=submit]:hover {
   background: #22d8b6;
 }
+
+
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
