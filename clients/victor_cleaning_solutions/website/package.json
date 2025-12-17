@@ -1,0 +1,7 @@
+{
+  "name": "victor-cleaning-solutions",
+  "private": true,
+  "scripts": {
+    "dev": "php -S 127.0.0.1:8000 & npx browser-sync start --proxy \"127.0.0.1:8000\" --files \"**/*.php, **/*.html, css/*.css, js/*.js\""
+  }
+}

@@ -8083,7 +8083,7 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light .navbar-nav {
       padding-bottom: 10px; } }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
-    font-size: 14px;
+    font-size: 23px;
     padding-top: 1.8rem;
     padding-bottom: 1.8rem;
     padding-left: 20px;
@@ -9763,3 +9763,20 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+ /*!
+ * CSS Personalizado
+ */
+
+.work .icon.image-popup{
+  position: relative;
+  z-index: 9999;
+  pointer-events: auto;
+}
+.work .desc{
+  pointer-events: none;
+}
+.work .desc a{
+  pointer-events: auto;
+}
