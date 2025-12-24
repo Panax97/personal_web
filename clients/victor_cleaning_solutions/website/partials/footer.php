@@ -2,7 +2,9 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 col-lg-3 mb-4 mb-md-0">
-						<h2 class="footer-heading">Victor Cleaning Solutions INC</h2>
+						<a href="index.php" class="d-inline-block mb-3">
+          <img src="images/victor_logos/logo_clean_full_white.png" alt="Victor Cleaning Solutions Logo" style="max-width: 220px; height: auto;">
+        </a>
 						<p>Boston’s premier choice for reliable, professional cleaning solutions, known for our trustworthiness, excellence, and dedication to client satisfaction.</p>
 						<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-4">
               <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
@@ -11,48 +13,37 @@
             </ul>
 					</div>
 					<div class="col-md-6 col-lg-3 mb-4 mb-md-0">
-						<h2 class="footer-heading">Latest News</h2>
-						<div class="block-21 mb-4 d-flex">
-              <a class="img mr-4 rounded" style="background-image: url(images/image_1.jpg);"></a>
-              <div class="text">
-                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
-                <div class="meta">
-                  <div><a href="#"><span class="icon-calendar"></span> Mar. 04, 2020</a></div>
-                  <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                  <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-                </div>
-              </div>
-            </div>
-            <div class="block-21 mb-4 d-flex">
-              <a class="img mr-4 rounded" style="background-image: url(images/image_2.jpg);"></a>
-              <div class="text">
-                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
-                <div class="meta">
-                  <div><a href="#"><span class="icon-calendar"></span> Mar. 04, 2020</a></div>
-                  <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                  <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-                </div>
-              </div>
-            </div>
+						<h2 class="footer-heading">Cleaning Services in Boston</h2>
+
+        <ul class="list-unstyled">
+          <li><a href="services.php" class="py-1 d-block">Residential Cleaning in Boston</a></li>
+          <li><a href="services.php" class="py-1 d-block">Commercial Cleaning Services</a></li>
+          <li><a href="services.php" class="py-1 d-block">Deep Cleaning</a></li>
+          <li><a href="services.php" class="py-1 d-block">Move-In / Move-Out Cleaning</a></li>
+          <li><a href="services.php" class="py-1 d-block">Office & Building Cleaning</a></li>
+          <li><a href="services.php" class="py-1 d-block">Post-Construction Cleaning</a></li>
+          <li><a href="services.php" class="py-1 d-block">Odor & Smoke Removal Cleaning</a></li>
+          <li><a href="services.php" class="py-1 d-block">Emergency Clean Up After Fire</a></li>
+        </ul>
+
 					</div>
 					<div class="col-md-6 col-lg-3 pl-lg-5 mb-4 mb-md-0">
 						<h2 class="footer-heading">Quick Links</h2>
 						<ul class="list-unstyled">
-              <li><a href="#" class="py-1 d-block">Home</a></li>
-              <li><a href="#" class="py-1 d-block">About</a></li>
-              <li><a href="#" class="py-1 d-block">Services</a></li>
-              <li><a href="#" class="py-1 d-block">Works</a></li>
-              <li><a href="#" class="py-1 d-block">Blog</a></li>
-              <li><a href="#" class="py-1 d-block">Contact</a></li>
+              <li><a href="index.php" class="py-1 d-block">Home</a></li>
+              <li><a href="services.php" class="py-1 d-block">Services</a></li>
+              <li><a href="about.php" class="py-1 d-block">About Us</a></li>
+              <li><a href="#" class="py-1 d-block">Gallery</a></li>
+              <li><a href="#" class="py-1 d-block">Contact us</a></li>
             </ul>
 					</div>
 					<div class="col-md-6 col-lg-3 mb-4 mb-md-0">
 						<h2 class="footer-heading">Have a Questions?</h2>
 						<div class="block-23 mb-3">
               <ul>
-                <li><span class="icon fa fa-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
+                <li><span class="icon fa fa-map-marker"></span><span class="text">Boston , Massachusetts</span></li>
                 <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">(617)3194396 or (857)2932168</span></a></li>
-                <li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">info@victorscleaningsolutions.com</span></a></li>
+                <li><a href="mailto:info@victorscleaningsolutions.com"><span class="icon fa fa-paper-plane"></span><span class="text">info@<wbr>victorscleaningsolutions.com</span></a></li>
               </ul>
             </div>
 					</div>

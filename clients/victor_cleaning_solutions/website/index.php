@@ -179,8 +179,8 @@ healthy environment</p>
     	<div class="container">
     		<div class="row justify-content-center pb-5 mb-3">
           <div class="col-md-7 heading-section text-center ftco-animate">
-          	<span class="subheading">Services</span>
-            <h2>How We Works</h2>
+          	<span class="subheading">Residential and Commercial Cleaning Services in Boston, Massachusetts</span>
+            <h2>Services</h2>
           </div>
         </div>
     		<div class="row">
@@ -257,6 +257,105 @@ healthy environment</p>
     </section>
 
 <!-- Fin Servicios -->
+
+<!-- Inicio Servicios Especiales-->
+    <section class="ftco-section">
+    	<div class="container">
+    		<div class="row justify-content-center pb-5 mb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+          	<span class="subheading">Residential and Commercial Cleaning Services in Boston, Massachusetts</span>
+            <h2>Specialized Services</h2>
+          </div>
+        </div>
+    		<div class="row">
+          <div class="col-md-6 col-lg-4 services ftco-animate">
+            <div class="d-block d-flex">
+              <div class="icon d-flex justify-content-center align-items-center">
+            		<span class="icon-cleaning_services"></span>
+              </div>
+              <div class="media-body pl-3">
+                <h3 class="heading">Furniture and Decorative Items Cleaning</h3>
+                <p>Detailed cleaning of furniture and decorative pieces to restore freshness and maintain their appearance</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 services ftco-animate">
+          	<div class="d-block d-flex">
+              <div class="icon d-flex justify-content-center align-items-center">
+            		<span class="icon-store_mall_directory"></span>
+              </div>
+              <div class="media-body pl-3">
+                <h3 class="heading">Store Cleaning</h3>
+                <p>Professional cleaning services for retail spaces to ensure a clean, welcoming environment for customers</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 services ftco-animate">
+            <div class="d-block d-flex">
+              <div class="icon d-flex justify-content-center align-items-center">
+            		<span class="icon-local_car_wash"></span>
+              </div>
+              <div class="media-body pl-3">
+                <h3 class="heading">Garage Cleaning</h3>
+                <p>Thorough garage cleaning to remove dust, dirt, and clutter, improving organization and cleanliness</p>
+              </div>
+            </div> 
+          </div>
+
+          <div class="col-md-6 col-lg-4 services ftco-animate">
+          	<div class="d-block d-flex">
+              <div class="icon d-flex justify-content-center align-items-center">
+            		<span class="icon-building"></span>
+              </div>
+              <div class="media-body pl-3">
+                <h3 class="heading">Common Areas Cleaning</h3>
+                <p>Deep cleaning of kitchens, including surfaces, appliances, and high-touch areas, ensuring a safe and sanitary space</p>
+              </div>
+            </div> 
+          </div>
+
+          <div class="col-md-6 col-lg-4 services ftco-animate">
+            <div class="d-block d-flex">
+              <div class="icon d-flex justify-content-center align-items-center">
+            		<span class="icon-smoke_free"></span>
+              </div>
+              <div class="media-body pl-3">
+                <h3 class="heading">Odor and Smoke Removal Cleaning</h3>
+                <p>Specialized cleaning to eliminate smoke damage and unpleasant odors, restoring a healthy environment</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 services ftco-animate">
+          	<div class="d-block d-flex">
+              <div class="icon d-flex justify-content-center align-items-center">
+            		<span class="icon-local_fire_department"></span>
+              </div>
+              <div class="media-body pl-3">
+                <h3 class="heading">Emergency Clean Up After Fire</h3>
+                <p>Fast and reliable post-fire cleanup services to help restore your space safely and efficiently</p>
+              </div>
+            </div>
+          </div>
+
+		  <div class="col-md-6 col-lg-4 services ftco-animate">
+          	<div class="d-block d-flex">
+              <div class="icon d-flex justify-content-center align-items-center">
+            		<span class="icon-paint-brush"></span>
+              </div>
+              <div class="media-body pl-3">
+                <h3 class="heading">Basement Painting Clean Up</h3>
+                <p>Complete basement cleanup and painting preparation to refresh and protect basement areas</p>
+              </div>
+            </div> 
+          </div>
+
+
+
+        </div>
+    	</div>
+    </section>
+
+<!-- Fin Servicios Especiales -->
 
 <!-- Inicio Testimonios -->
     <section class="ftco-section testimony-section ftco-bg-dark">
