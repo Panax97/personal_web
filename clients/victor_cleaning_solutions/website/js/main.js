@@ -103,6 +103,12 @@
     }
   });
 
+  // Make title clickable without duplicating gallery items
+$(document).on('click', '.open-gallery', function(e) {
+  e.preventDefault();
+  $(this).closest('.work').find('.icon.image-popup')[0].click();
+});
+
   $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
     disableOn: 700,
     type: 'iframe',

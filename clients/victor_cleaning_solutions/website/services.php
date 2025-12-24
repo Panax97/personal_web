@@ -377,5 +377,10 @@
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
     
+
+  <a href="contact.php" class="book-now-float" aria-label="Book Now">
+  <span class="fa fa-calendar"></span> Get Your Free Estimate!
+
+  
   </body>
 </html>

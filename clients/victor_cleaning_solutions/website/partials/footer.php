@@ -33,8 +33,8 @@
               <li><a href="index.php" class="py-1 d-block">Home</a></li>
               <li><a href="services.php" class="py-1 d-block">Services</a></li>
               <li><a href="about.php" class="py-1 d-block">About Us</a></li>
-              <li><a href="#" class="py-1 d-block">Gallery</a></li>
-              <li><a href="#" class="py-1 d-block">Contact us</a></li>
+              <li><a href="portfolio.php" class="py-1 d-block">Gallery</a></li>
+              <li><a href="contact.php" class="py-1 d-block">Contact us</a></li>
             </ul>
 					</div>
 					<div class="col-md-6 col-lg-3 mb-4 mb-md-0">
