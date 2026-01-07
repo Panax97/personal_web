@@ -13,7 +13,7 @@
 
     <!-- END nav -->
     <!-- END nav -->
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_2.jpg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/fotos_victor/about_image.png');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-end">
@@ -31,7 +31,7 @@
     	<div class="container">
     		<div class="row d-flex no-gutters">
     			<div class="col-md-6 d-flex">
-    				<div class="img d-flex align-items-center justify-content-center py-5 py-md-0" style="background-image:url(images/about.jpg);">
+    				<div class="img d-flex align-items-center justify-content-center py-5 py-md-0" style="background-image:url(images/fotos_victor/clean_2.jpeg);">
     					<div class="time-open-wrap">
     						<div class="desc p-4">
 		    					<h2>Business Hours</h2>
@@ -118,13 +118,13 @@ healthy environment</p>
 	          	<span class="subheading">Team &amp; Staff</span>
 	            <h2>Our Team</h2>
 	            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
-	            <p><a href="#" class="btn btn-secondary">View All Staff</a></p>
+	            
 	          </div>
 					</div>
 					<div class="col-md-4 col-lg-3 ftco-animate d-flex">
 						<div class="staff">
 							<div class="img-wrap d-flex align-items-stretch">
-								<div class="img align-self-stretch" style="background-image: url(images/staff-1.jpg);"></div>
+								<div class="img align-self-stretch" style="background-image: url(images/fotos_victor/victor_owner.png);"></div>
 							</div>
 							<div class="text pt-3 px-3 pb-4 text-center">
 								<h3>Victor</h3>
@@ -134,32 +134,7 @@ healthy environment</p>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 col-lg-3 ftco-animate d-flex">
-						<div class="staff">
-							<div class="img-wrap d-flex align-items-stretch">
-								<div class="img align-self-stretch" style="background-image: url(images/staff-2.jpg);"></div>
-							</div>
-							<div class="text pt-3 px-3 pb-4 text-center">
-								<h3>Lloyd Wilson</h3>
-								<span class="position mb-2">Office Cleaner</span>
-								<div class="faded">
-	              </div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-lg-3 ftco-animate d-flex">
-						<div class="staff">
-							<div class="img-wrap d-flex align-items-stretch">
-								<div class="img align-self-stretch" style="background-image: url(images/staff-3.jpg);"></div>
-							</div>
-							<div class="text pt-3 px-3 pb-4 text-center">
-								<h3>Lloyd Wilson</h3>
-								<span class="position mb-2">Office Cleaner</span>
-								<div class="faded">
-	              </div>
-							</div>
-						</div>
-					</div>
+					
 				</div>
 			</div>
 		</section>

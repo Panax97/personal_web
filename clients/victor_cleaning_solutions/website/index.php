@@ -12,7 +12,7 @@
          <?php include __DIR__ . '/partials/header.php'; ?>
 
     <!-- END nav -->
-    <div class="hero-wrap js-fullheight" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
+    <div class="hero-wrap js-fullheight" style="background-image: url('images/fotos_victor/new_fondo_header.png');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
@@ -98,7 +98,7 @@
     	<div class="container">
     		<div class="row d-flex no-gutters">
     			<div class="col-md-6 d-flex">
-    				<div class="img d-flex align-items-center justify-content-center py-5 py-md-0" style="background-image:url(images/about.jpg);">
+    				<div class="img d-flex align-items-center justify-content-center py-5 py-md-0" style="background-image:url(images/fotos_victor/clean_2.jpeg);">
     					<div class="time-open-wrap">
     						<div class="desc p-4">
 		    					<h2>Business Hours</h2>
@@ -467,8 +467,8 @@ healthy environment</p>
 
       <!-- 1 -->
       <div class="col-md-6 col-lg-3 ftco-animate">
-        <div class="work img d-flex align-items-center" style="background-image: url(images/work-1.jpg);">
-          <a href="images/work-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center" title="House Cleaning">
+        <div class="work img d-flex align-items-center" style="background-image: url(images/fotos_victor/hosue_cleaning1.png);">
+          <a href="images/fotos_victor/hosue_cleaning1.png" class="icon image-popup d-flex justify-content-center align-items-center" title="House Cleaning">
             <span class="fa fa-expand"></span>
           </a>
           <div class="desc w-100 px-4 text-center pt-5 mt-5">
@@ -481,8 +481,8 @@ healthy environment</p>
 
       <!-- 2 -->
       <div class="col-md-6 col-lg-3 ftco-animate">
-        <div class="work img d-flex align-items-center" style="background-image: url(images/work-2.jpg);">
-          <a href="images/work-2.jpg" class="icon image-popup d-flex justify-content-center align-items-center" title="Window Cleaning">
+        <div class="work img d-flex align-items-center" style="background-image: url(images/fotos_victor/windows_cleaning1.png);">
+          <a href="images/fotos_victor/windows_cleaning1.png" class="icon image-popup d-flex justify-content-center align-items-center" title="Window Cleaning">
             <span class="fa fa-expand"></span>
           </a>
           <div class="desc w-100 px-4 text-center pt-5 mt-5">
@@ -495,13 +495,13 @@ healthy environment</p>
 
       <!-- 3 -->
       <div class="col-md-6 col-lg-3 ftco-animate">
-        <div class="work img d-flex align-items-center" style="background-image: url(images/work-3.jpg);">
-          <a href="images/work-3.jpg" class="icon image-popup d-flex justify-content-center align-items-center" title="Pool Cleaning">
+        <div class="work img d-flex align-items-center" style="background-image: url(images/fotos_victor/Odor_and_Smoke_Removal.png);">
+          <a href="images/fotos_victor/Odor_and_Smoke_Removal.png" class="icon image-popup d-flex justify-content-center align-items-center" title="Odor and Smoke Removal">
             <span class="fa fa-expand"></span>
           </a>
           <div class="desc w-100 px-4 text-center pt-5 mt-5">
             <div class="text w-100 mb-3 mt-4">
-              <h2><a href="#" class="open-gallery">Pool Cleaning</a></h2>
+              <h2><a href="#" class="open-gallery">Odor and Smoke Removal</a></h2>
             </div>
           </div>
         </div>
@@ -509,8 +509,8 @@ healthy environment</p>
 
       <!-- 4 -->
       <div class="col-md-6 col-lg-3 ftco-animate">
-        <div class="work img d-flex align-items-center" style="background-image: url(images/work-4.jpg);">
-          <a href="images/work-4.jpg" class="icon image-popup d-flex justify-content-center align-items-center" title="Office Cleaning">
+        <div class="work img d-flex align-items-center" style="background-image: url(images/fotos_victor/office_cleaning.png);">
+          <a href="images/fotos_victor/office_cleaning.png" class="icon image-popup d-flex justify-content-center align-items-center" title="Office Cleaning">
             <span class="fa fa-expand"></span>
           </a>
           <div class="desc w-100 px-4 text-center pt-5 mt-5">
@@ -523,8 +523,8 @@ healthy environment</p>
 
       <!-- 5 -->
       <div class="col-md-6 col-lg-3 ftco-animate">
-        <div class="work img d-flex align-items-center" style="background-image: url(images/work-5.jpg);">
-          <a href="images/work-5.jpg" class="icon image-popup d-flex justify-content-center align-items-center" title="Carpet Cleaning">
+        <div class="work img d-flex align-items-center" style="background-image: url(images/fotos_victor/carpet_cleaning.png);">
+          <a href="images/fotos_victor/carpet_cleaning.png" class="icon image-popup d-flex justify-content-center align-items-center" title="Carpet Cleaning">
             <span class="fa fa-expand"></span>
           </a>
           <div class="desc w-100 px-4 text-center pt-5 mt-5">
@@ -537,13 +537,13 @@ healthy environment</p>
 
       <!-- 6 -->
       <div class="col-md-6 col-lg-3 ftco-animate">
-        <div class="work img d-flex align-items-center" style="background-image: url(images/work-6.jpg);">
-          <a href="images/work-6.jpg" class="icon image-popup d-flex justify-content-center align-items-center" title="Garden Cleaning">
+        <div class="work img d-flex align-items-center" style="background-image: url(images/fotos_victor/kitchen_cleaning.png);">
+          <a href="images/fotos_victor/kitchen_cleaning.png" class="icon image-popup d-flex justify-content-center align-items-center" title="Kitchen Cleaning">
             <span class="fa fa-expand"></span>
           </a>
           <div class="desc w-100 px-4 text-center pt-5 mt-5">
             <div class="text w-100 mb-3 mt-4">
-              <h2><a href="#" class="open-gallery">Garden Cleaning</a></h2>
+              <h2><a href="#" class="open-gallery">Kitchen Cleaning</a></h2>
             </div>
           </div>
         </div>
@@ -551,13 +551,13 @@ healthy environment</p>
 
       <!-- 7 -->
       <div class="col-md-6 col-lg-3 ftco-animate">
-        <div class="work img d-flex align-items-center" style="background-image: url(images/work-7.jpg);">
-          <a href="images/work-7.jpg" class="icon image-popup d-flex justify-content-center align-items-center" title="Carpet Cleaning">
+        <div class="work img d-flex align-items-center" style="background-image: url(images/fotos_victor/floor_cleaning.png);">
+          <a href="images/fotos_victor/floor_cleaning.png" class="icon image-popup d-flex justify-content-center align-items-center" title="Floor Buffing">
             <span class="fa fa-expand"></span>
           </a>
           <div class="desc w-100 px-4 text-center pt-5 mt-5">
             <div class="text w-100 mb-3 mt-4">
-              <h2><a href="#" class="open-gallery">Carpet Cleaning</a></h2>
+              <h2><a href="#" class="open-gallery">Floor Buffing</a></h2>
             </div>
           </div>
         </div>
@@ -565,13 +565,13 @@ healthy environment</p>
 
       <!-- 8 -->
       <div class="col-md-6 col-lg-3 ftco-animate">
-        <div class="work img d-flex align-items-center" style="background-image: url(images/work-8.jpg);">
-          <a href="images/work-8.jpg" class="icon image-popup d-flex justify-content-center align-items-center" title="Pool Cleaning">
+        <div class="work img d-flex align-items-center" style="background-image: url(images/fotos_victor/furniture_clean.png);">
+          <a href="images/fotos_victor/furniture_clean.png" class="icon image-popup d-flex justify-content-center align-items-center" title="Furniture Cleaning">
             <span class="fa fa-expand"></span>
           </a>
           <div class="desc w-100 px-4 text-center pt-5 mt-5">
             <div class="text w-100 mb-3 mt-4">
-              <h2><a href="#" class="open-gallery">Pool Cleaning</a></h2>
+              <h2><a href="#" class="open-gallery">Furniture Cleaning</a></h2>
             </div>
           </div>
         </div>

@@ -13,7 +13,7 @@
 
     
     <!-- END nav -->
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_2.jpg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/fotos_victor/galery_photo.png');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-end">
@@ -25,8 +25,9 @@
       </div>
     </section>
 
-    <!-- Inicio Gallery -->
-		
+
+    <!-- inicio auto Gallery -->
+<!-- Inicio Gallery -->
 <section class="ftco-section">
   <div class="container">
     <div class="row justify-content-center pb-5 mb-3">
@@ -37,125 +38,47 @@
     </div>
 
     <div class="row">
+      <?php
+        $galleryDir = __DIR__ . '/images/fotos_victor/portfolio';
+        $galleryUrl = '/images/fotos_victor/portfolio';
+        $allowedExt = ['jpg','jpeg','png','webp'];
 
-      <!-- 1 -->
-      <div class="col-md-6 col-lg-3 ftco-animate">
-        <div class="work img d-flex align-items-center" style="background-image: url(images/work-1.jpg);">
-          <a href="images/work-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center" title="House Cleaning">
-            <span class="fa fa-expand"></span>
-          </a>
-          <div class="desc w-100 px-4 text-center pt-5 mt-5">
-            <div class="text w-100 mb-3 mt-4">
-              <h2><a href="#" class="open-gallery">House Cleaning</a></h2>
-            </div>
+        $files = [];
+        if (is_dir($galleryDir)) {
+          foreach (scandir($galleryDir) as $f) {
+            if ($f === '.' || $f === '..') continue;
+            $ext = strtolower(pathinfo($f, PATHINFO_EXTENSION));
+            if (in_array($ext, $allowedExt, true)) {
+              $files[] = $f;
+            }
+          }
+        }
+
+        natsort($files);
+        $files = array_values($files);
+
+        foreach ($files as $file):
+          $img = $galleryUrl . '/' . rawurlencode($file);
+      ?>
+        <div class="col-md-6 col-lg-3 ftco-animate">
+          <div class="work img d-flex align-items-center"
+               style="background-image: url('<?= htmlspecialchars($img) ?>');">
+            
+            <!-- Botón expandir -->
+            <a href="<?= htmlspecialchars($img) ?>"
+               class="icon image-popup d-flex justify-content-center align-items-center">
+              <span class="fa fa-expand"></span>
+            </a>
+
           </div>
         </div>
-      </div>
-
-      <!-- 2 -->
-      <div class="col-md-6 col-lg-3 ftco-animate">
-        <div class="work img d-flex align-items-center" style="background-image: url(images/work-2.jpg);">
-          <a href="images/work-2.jpg" class="icon image-popup d-flex justify-content-center align-items-center" title="Window Cleaning">
-            <span class="fa fa-expand"></span>
-          </a>
-          <div class="desc w-100 px-4 text-center pt-5 mt-5">
-            <div class="text w-100 mb-3 mt-4">
-              <h2><a href="#" class="open-gallery">Window Cleaning</a></h2>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- 3 -->
-      <div class="col-md-6 col-lg-3 ftco-animate">
-        <div class="work img d-flex align-items-center" style="background-image: url(images/work-3.jpg);">
-          <a href="images/work-3.jpg" class="icon image-popup d-flex justify-content-center align-items-center" title="Pool Cleaning">
-            <span class="fa fa-expand"></span>
-          </a>
-          <div class="desc w-100 px-4 text-center pt-5 mt-5">
-            <div class="text w-100 mb-3 mt-4">
-              <h2><a href="#" class="open-gallery">Pool Cleaning</a></h2>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- 4 -->
-      <div class="col-md-6 col-lg-3 ftco-animate">
-        <div class="work img d-flex align-items-center" style="background-image: url(images/work-4.jpg);">
-          <a href="images/work-4.jpg" class="icon image-popup d-flex justify-content-center align-items-center" title="Office Cleaning">
-            <span class="fa fa-expand"></span>
-          </a>
-          <div class="desc w-100 px-4 text-center pt-5 mt-5">
-            <div class="text w-100 mb-3 mt-4">
-              <h2><a href="#" class="open-gallery">Office Cleaning</a></h2>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- 5 -->
-      <div class="col-md-6 col-lg-3 ftco-animate">
-        <div class="work img d-flex align-items-center" style="background-image: url(images/work-5.jpg);">
-          <a href="images/work-5.jpg" class="icon image-popup d-flex justify-content-center align-items-center" title="Carpet Cleaning">
-            <span class="fa fa-expand"></span>
-          </a>
-          <div class="desc w-100 px-4 text-center pt-5 mt-5">
-            <div class="text w-100 mb-3 mt-4">
-              <h2><a href="#" class="open-gallery">Carpet Cleaning</a></h2>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- 6 -->
-      <div class="col-md-6 col-lg-3 ftco-animate">
-        <div class="work img d-flex align-items-center" style="background-image: url(images/work-6.jpg);">
-          <a href="images/work-6.jpg" class="icon image-popup d-flex justify-content-center align-items-center" title="Garden Cleaning">
-            <span class="fa fa-expand"></span>
-          </a>
-          <div class="desc w-100 px-4 text-center pt-5 mt-5">
-            <div class="text w-100 mb-3 mt-4">
-              <h2><a href="#" class="open-gallery">Garden Cleaning</a></h2>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- 7 -->
-      <div class="col-md-6 col-lg-3 ftco-animate">
-        <div class="work img d-flex align-items-center" style="background-image: url(images/work-7.jpg);">
-          <a href="images/work-7.jpg" class="icon image-popup d-flex justify-content-center align-items-center" title="Carpet Cleaning">
-            <span class="fa fa-expand"></span>
-          </a>
-          <div class="desc w-100 px-4 text-center pt-5 mt-5">
-            <div class="text w-100 mb-3 mt-4">
-              <h2><a href="#" class="open-gallery">Carpet Cleaning</a></h2>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- 8 -->
-      <div class="col-md-6 col-lg-3 ftco-animate">
-        <div class="work img d-flex align-items-center" style="background-image: url(images/work-8.jpg);">
-          <a href="images/work-8.jpg" class="icon image-popup d-flex justify-content-center align-items-center" title="Pool Cleaning">
-            <span class="fa fa-expand"></span>
-          </a>
-          <div class="desc w-100 px-4 text-center pt-5 mt-5">
-            <div class="text w-100 mb-3 mt-4">
-              <h2><a href="#" class="open-gallery">Pool Cleaning</a></h2>
-            </div>
-          </div>
-        </div>
-      </div>
-
+      <?php endforeach; ?>
     </div>
-
   </div>
 </section>
+<!-- Fin Gallery -->
 
-    <!-- END Gallery -->
+    <!-- END auto Gallery -->
 
 <!-- Inicio Footer -->
        
