@@ -39,9 +39,8 @@
 
     <div class="row">
       <?php
-        $galleryDir = rtrim($_SERVER['DOCUMENT_ROOT'], '/') 
-            . '/clients/victor_cleaning_solutions/webiste/victor_cleaning_solutions/images/fotos_victor/portfolio';
-        $galleryUrl = '/images/fotos_victor/portfolio';
+        $galleryDir = __DIR__ . '/images/fotos_victor/portfolio';
+        $galleryUrl = 'images/fotos_victor/portfolio';
         $allowedExt = ['jpg','jpeg','png','webp'];
 
         $files = [];
