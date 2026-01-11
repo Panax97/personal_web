@@ -46,7 +46,7 @@
 				        			<span class="fa fa-phone"></span>
 				        		</div>
 				        		<div class="text">
-					            <p><span>Phone:</span> <a href="tel://1234567920">(617)3194396 or (857)2932168</a></p>
+					            <p><span>Phone:</span> <a href="tel://1234567920">(617) 319-4396 or (857) 293-2168</a></p>
 					          </div>
 				          </div>
 								</div>

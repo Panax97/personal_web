@@ -9828,3 +9828,51 @@ textarea.form-control {
 .book-now-float{
   animation: pulse 2.5s infinite;
 }
+
+
+.footer-award-card{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px;
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 10px;
+  text-decoration: none;
+  transition: transform .15s ease, border-color .15s ease;
+}
+
+.footer-award-card:hover{
+  transform: translateY(-2px);
+  border-color: rgba(255,255,255,.18);
+}
+
+.footer-award-card img{
+  width: 100%;
+  max-width: 140px;
+  height: auto;
+}
+
+.footer-award-text{
+  color: #cfd8e3;
+  line-height: 1.2;
+}
+
+.footer-award-text strong{
+  display:block;
+  font-size: 13px;
+  color: #fff;
+}
+
+.footer-award-text span{
+  display:block;
+  font-size: 12px;
+  opacity: .9;
+  margin-top: 2px;
+}
+
+.footer-award-text small{
+  display:block;
+  font-size: 11px;
+  opacity: .7;
+  margin-top: 6px;
+}

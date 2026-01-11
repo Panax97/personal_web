@@ -117,7 +117,7 @@
 		    				</div>
 								<div class="desc p-4 bg-secondary">
 									<h3 class="heading">For Emergency Cases</h3>
-									<span class="phone">(857) 319-4396</span>
+									<span class="phone">(617) 319-4396</span>
 								</div>
     					</div>
     				</div>
@@ -358,99 +358,120 @@ healthy environment</p>
 <!-- Fin Servicios Especiales -->
 
 <!-- Inicio Testimonios -->
-    <section class="ftco-section testimony-section ftco-bg-dark">
-      <div class="container">
-        <div class="row justify-content-center pb-5 mb-3">
-          <div class="col-md-7 heading-section heading-section-white text-center ftco-animate">
-          	<span class="subheading">Testimonies</span>
-            <h2>What Our Clients Say About Our Cleaning Services</h2>
-          </div>
-        </div>
-        <div class="row ftco-animate">
-          <div class="col-md-12">
-            <div class="carousel-testimony owl-carousel ftco-owl">
-              <div class="item">
-                <div class="testimony-wrap py-4">
-                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-right"></span></div>
-                  <div class="text">
-                  	<div class="d-flex align-items-center mb-4">
-                    	<div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
-                    	<div class="pl-3">
-		                    <p class="name">Company</p>
-		                    <span class="position">Service Done</span>
-		                  </div>
-	                  </div>
-                    <p class="mb-1">Details of the service provided</p>
+<section class="ftco-section testimony-section ftco-bg-dark">
+  <div class="container">
+    <div class="row justify-content-center pb-5 mb-3">
+      <div class="col-md-7 heading-section heading-section-white text-center ftco-animate">
+        <span class="subheading">Testimonials</span>
+        <h2>What Our Clients Say About Victor Cleaning Solutions</h2>
+      </div>
+    </div>
+
+    <div class="row ftco-animate">
+      <div class="col-md-12">
+        <div class="carousel-testimony owl-carousel ftco-owl">
+
+          <div class="item">
+            <div class="testimony-wrap py-4">
+              <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-right"></span></div>
+              <div class="text">
+                <div class="d-flex align-items-center mb-4">
+                  <div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
+                  <div class="pl-3">
+                    <p class="name">Maria G.</p>
+                    <span class="position">Deep Cleaning • East Boston</span>
                   </div>
                 </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap py-4">
-                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-right"></span></div>
-                  <div class="text">
-                  	<div class="d-flex align-items-center mb-4">
-                    	<div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
-                    	<div class="pl-3">
-		                    <p class="name">Roger Scott</p>
-		                    <span class="position">Marketing Manager</span>
-		                  </div>
-	                  </div>
-                    <p class="mb-1">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap py-4">
-                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-right"></span></div>
-                  <div class="text">
-                  	<div class="d-flex align-items-center mb-4">
-                    	<div class="user-img" style="background-image: url(images/person_3.jpg)"></div>
-                    	<div class="pl-3">
-		                    <p class="name">Roger Scott</p>
-		                    <span class="position">Marketing Manager</span>
-		                  </div>
-	                  </div>
-                    <p class="mb-1">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap py-4">
-                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-right"></span></div>
-                  <div class="text">
-                  	<div class="d-flex align-items-center mb-4">
-                    	<div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
-                    	<div class="pl-3">
-		                    <p class="name">Roger Scott</p>
-		                    <span class="position">Marketing Manager</span>
-		                  </div>
-	                  </div>
-                    <p class="mb-1">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap py-4">
-                	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-right"></span></div>
-                  <div class="text">
-                  	<div class="d-flex align-items-center mb-4">
-                    	<div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
-                    	<div class="pl-3">
-		                    <p class="name">Roger Scott</p>
-		                    <span class="position">Marketing Manager</span>
-		                  </div>
-	                  </div>
-                    <p class="mb-1">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                  </div>
-                </div>
+                <p class="mb-1">
+                  “They were on time, professional, and super detailed. My kitchen and bathrooms looked brand new.
+                  Great communication and fair pricing. Highly recommend!”
+                </p>
               </div>
             </div>
           </div>
+
+          <div class="item">
+            <div class="testimony-wrap py-4">
+              <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-right"></span></div>
+              <div class="text">
+                <div class="d-flex align-items-center mb-4">
+                  <div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
+                  <div class="pl-3">
+                    <p class="name">James R.</p>
+                    <span class="position">Move-In / Move-Out • Boston, MA</span>
+                  </div>
+                </div>
+                <p class="mb-1">
+                  “We booked a move-out clean and they exceeded expectations. The apartment was spotless and ready for inspection.
+                  Easy scheduling and very friendly team.”
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="testimony-wrap py-4">
+              <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-right"></span></div>
+              <div class="text">
+                <div class="d-flex align-items-center mb-4">
+                  <div class="user-img" style="background-image: url(images/person_3.jpg)"></div>
+                  <div class="pl-3">
+                    <p class="name">Sofia L.</p>
+                    <span class="position">Office Cleaning • Downtown Boston</span>
+                  </div>
+                </div>
+                <p class="mb-1">
+                  “Our office looks amazing every week. They’re consistent, trustworthy, and pay attention to the details.
+                  Floors, desks, restrooms—everything is always fresh and clean.”
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="testimony-wrap py-4">
+              <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-right"></span></div>
+              <div class="text">
+                <div class="d-flex align-items-center mb-4">
+                  <div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
+                  <div class="pl-3">
+                    <p class="name">Carlos M.</p>
+                    <span class="position">Post-Construction Cleaning • Boston Area</span>
+                  </div>
+                </div>
+                <p class="mb-1">
+                  “We had dust everywhere after remodeling. Victor’s team came in with the right equipment and left the place move-in ready.
+                  Professional and efficient.”
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="testimony-wrap py-4">
+              <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-right"></span></div>
+              <div class="text">
+                <div class="d-flex align-items-center mb-4">
+                  <div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
+                  <div class="pl-3">
+                    <p class="name">Linda P.</p>
+                    <span class="position">Odor & Smoke Removal • East Boston</span>
+                  </div>
+                </div>
+                <p class="mb-1">
+                  “We had a lingering smoke odor and they handled it professionally. Huge difference after the service.
+                  Clean, fresh, and they explained everything clearly.”
+                </p>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
-    </section>
-
-	<!-- Final testimonios -->
+    </div>
+  </div>
+</section>
+<!-- Final testimonios -->
 
 	    <!-- Inicio Gallery -->
 		

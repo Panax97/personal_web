@@ -2,7 +2,7 @@
 			<div class="container">
 				<div class="row justify-content-between">
 						<div class="col-12 col-md d-flex align-items-center">
-							<p class="mb-0 phone"><span class="mailus">Phone no:</span> <a href="#">(617)3194396 or (857)2932168 </a> or <span class="mailus">email us:</span> <a href="mailto:info@victorscleaningsolutions.com">info@victorscleaningsolutions.com</a></p>
+							<p class="mb-0 phone"><span class="mailus">Phone no:</span> <a href="#">(617) 319-4396 or (857) 293   2168 </a> or <span class="mailus">email us:</span> <a href="mailto:info@victorscleaningsolutions.com">info@victorscleaningsolutions.com</a></p>
 						</div>
 						<div class="col-12 col-md d-flex justify-content-md-end">
 							<div class="social-media">
