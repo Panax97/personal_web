@@ -9876,3 +9876,39 @@ textarea.form-control {
   opacity: .7;
   margin-top: 6px;
 }
+
+
+/* Contenedor del award */
+.footer-award-card{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* evita centrar raro */
+  gap: 10px;
+}
+
+/* Imagen del award */
+.footer-award-card img{
+  width: 100%;
+  max-width: 140px;   /* <-- ajusta aquí el tamaño desktop */
+  height: auto;       /* mantiene proporción */
+  object-fit: contain;
+  display: block;
+}
+
+/* En tablets */
+@media (max-width: 992px){
+  .footer-award-card img{
+    max-width: 120px;
+  }
+}
+
+/* En móvil */
+@media (max-width: 576px){
+  .footer-award-card{
+    align-items: center;
+    text-align: center;
+  }
+  .footer-award-card img{
+    max-width: 110px;
+  }
+}
