@@ -13,15 +13,16 @@
         <li><a href="index.php#services">Services</a></li>
         <li><a href="index.php#portfolio">Portfolio</a></li>
         <li><a href="index.php#team">Team</a></li>
-        <li><a href="blog.php">Blog</a></li>
+        <!--<li><a href="blog.php">Blog</a></li>-->
 
-        <!-- Puedes borrar estos dropdowns si no los usas -->
-        <li class="dropdown"><a href="#"><span>More</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+        <!-- Puedes borrar estos dropdowns si no los usas 
+        <!-- <li class="dropdown"><a href="#"><span>More</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
           <ul>
             <li><a href="#">Option 1</a></li>
             <li><a href="#">Option 2</a></li>
           </ul>
         </li>
+        -->
 
         <li><a href="index.php#contact">Contact</a></li>
       </ul>
