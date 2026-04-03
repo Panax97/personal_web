@@ -1,0 +1,25 @@
+{
+  "name": "personal_web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "browser-sync start --proxy 'localhost/personal_web' --files '**/*.php, **/*.html, **/*.css, **/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Panax97/personal_web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Panax97/personal_web/issues"
+  },
+  "homepage": "https://github.com/Panax97/personal_web#readme",
+  "devDependencies": {
+    "browser-sync": "^3.0.4"
+  }
+}
