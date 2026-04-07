@@ -23,7 +23,7 @@ use PHPMailer\PHPMailer\Exception;
 const SMTP_HOST = 'smtp.hostinger.com';
 const SMTP_PORT = 465; // Si falla, prueba 587 con STARTTLS
 const SMTP_USERNAME = 'contact@piainsights.com';
-const SMTP_PASSWORD = 'YOUR_HOSTINGER_EMAIL_PASSWORD';
+const SMTP_PASSWORD = 'Inicio01$@';
 const SMTP_FROM_EMAIL = 'contact@piainsights.com';
 const SMTP_FROM_NAME = 'PIA Website';
 const DESTINATION_EMAIL = 'contact@piainsights.com';
