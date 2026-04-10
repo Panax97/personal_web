@@ -1092,8 +1092,61 @@
 
     <div class="row gy-4">
 
-      <!-- Info -->
-      <div class="col-lg-6">
+      <!-- Form FIRST -->
+      <div class="col-lg-6 order-1 order-lg-1">
+
+        <form action="forms/process-pia-leads.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="row gy-4">
+
+            <div style="position: absolute; left: -9999px; opacity: 0; pointer-events: none;" aria-hidden="true">
+              <label for="website_url">Leave this field empty</label>
+              <input type="text" name="website_url" id="website_url" tabindex="-1" autocomplete="off">
+            </div>
+
+            <input type="hidden" name="form_started_at" id="form_started_at">
+
+            <div class="col-md-6">
+              <input type="text" name="full_name" class="form-control" placeholder="Full Name" autocomplete="name" required minlength="2">
+            </div>
+
+            <div class="col-md-6">
+              <input type="email" class="form-control" name="user_email" placeholder="Business Email" autocomplete="email" required>
+            </div>
+
+            <div class="col-12">
+              <input type="text" class="form-control" name="project_subject" placeholder="What do you need help with?" autocomplete="off" required minlength="3">
+            </div>
+
+            <div class="col-12">
+              <textarea class="form-control" name="project_details" rows="6" placeholder="Tell us about your project or business challenge..." required minlength="10"></textarea>
+            </div>
+
+            <div class="col-12 text-center">
+              <div class="loading">Sending...</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. We'll get back to you shortly.</div>
+
+              <button type="submit">Request Free Consultation</button>
+            </div>
+
+          </div>
+
+        </form>
+
+        <div class="text-center mt-3">
+          <p class="small">
+            Prefer faster communication?
+            <a href="https://wa.me/18573993888" target="_blank" rel="noopener noreferrer">
+              <strong>Message us directly via WhatsApp</strong>
+            </a>
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Info SECOND -->
+      <div class="col-lg-6 order-2 order-lg-2">
 
         <div class="row gy-4">
 
@@ -1143,67 +1196,6 @@
 
       </div>
 
-      <!-- Form -->
-      <div class="col-lg-6">
-
-<form action="forms/process-pia-leads.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-
-  <div class="row gy-4">
-
-    <div style="position: absolute; left: -9999px; opacity: 0; pointer-events: none;" aria-hidden="true">
-      <label for="website_url">Leave this field empty</label>
-      <input type="text" name="website_url" id="website_url" tabindex="-1" autocomplete="off">
-    </div>
-
-    <input type="hidden" name="form_started_at" id="form_started_at">
-
-    <div class="col-md-6">
-      <input type="text" name="full_name" class="form-control" placeholder="Full Name" autocomplete="name" required minlength="2">
-    </div>
-
-    <div class="col-md-6">
-      <input type="email" class="form-control" name="user_email" placeholder="Business Email" autocomplete="email" required>
-    </div>
-
-    <div class="col-12">
-      <input type="text" class="form-control" name="project_subject" placeholder="What do you need help with?" autocomplete="off" required minlength="3">
-    </div>
-
-    <div class="col-12">
-      <textarea class="form-control" name="project_details" rows="6" placeholder="Tell us about your project or business challenge..." required minlength="10"></textarea>
-    </div>
-
-    <div class="col-12 text-center">
-      <div class="loading">Sending...</div>
-      <div class="error-message"></div>
-      <div class="sent-message">Your message has been sent. We'll get back to you shortly.</div>
-
-      <button type="submit">Request Free Consultation</button>
-    </div>
-
-  </div>
-</form>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const startedAtField = document.getElementById("form_started_at");
-    if (startedAtField) {
-      startedAtField.value = Date.now();
-    }
-  });
-</script>
-
-        <div class="text-center mt-3">
-          <p class="small">
-            Prefer faster communication?
-            <a href="https://wa.me/18573993888" target="_blank" rel="noopener noreferrer">
-              <strong>Message us directly via WhatsApp</strong>
-            </a>
-          </p>
-        </div>
-
-      </div>
-
     </div>
 
   </div>
@@ -1217,7 +1209,8 @@
       startedAtField.value = Date.now();
     }
   });
-</script><!-- /Contact Section -->
+</script>
+<!-- /Contact Section -->
 
   </main>
 
