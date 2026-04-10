@@ -20,7 +20,7 @@
               At PIA, we help businesses turn data into clear insights, better decisions, and modern digital solutions. From dashboards and reporting to websites, automation, and business technology support, we build tools that move your business forward.
             </p>
             <div class="d-flex flex-column flex-md-row" data-aos="fade-up" data-aos-delay="200">
-              <a href="#about" class="btn-get-started">Learn More <i class="bi bi-arrow-right"></i></a>
+              <a href="#values" class="btn-get-started">Learn More <i class="bi bi-arrow-right"></i></a>
               <a href="#contact" class="btn-watch-video d-flex align-items-center justify-content-center ms-0 ms-md-4 mt-4 mt-md-0">
                 <i class="bi bi-envelope"></i><span>Contact Us</span>
               </a>
@@ -1179,66 +1179,7 @@
 
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const startedAtField = document.getElementById("form_started_at");
-    if (startedAtField) {
-      startedAtField.value = Date.now();
-    }
 
-    function scrollWithOffset(targetId) {
-      const target = document.getElementById(targetId);
-      const header = document.getElementById("header");
-
-      if (!target) return;
-
-      const headerHeight = header ? header.offsetHeight : 0;
-      const extraOffset = 20;
-      const targetPosition =
-        target.getBoundingClientRect().top + window.pageYOffset - headerHeight - extraOffset;
-
-      window.scrollTo({
-        top: targetPosition,
-        behavior: "smooth"
-      });
-    }
-
-    document.querySelectorAll('a[href*="#"]').forEach(link => {
-      link.addEventListener("click", function (event) {
-        const href = this.getAttribute("href");
-        if (!href) return;
-
-        const parts = href.split("#");
-        const hash = parts[1];
-
-        if (!hash) return;
-
-        const path = parts[0];
-        const currentPage = window.location.pathname.split("/").pop() || "index.php";
-
-        const isSamePage =
-          path === "" ||
-          path === "#" ||
-          path === currentPage ||
-          path === "index.php";
-
-        if (isSamePage) {
-          event.preventDefault();
-          scrollWithOffset(hash);
-          history.replaceState(null, "", "#" + hash);
-        }
-      });
-    });
-
-    if (window.location.hash) {
-      const hash = window.location.hash.substring(1);
-
-      setTimeout(() => {
-        scrollWithOffset(hash);
-      }, 200);
-    }
-  });
-</script>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
