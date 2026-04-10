@@ -1111,7 +1111,7 @@
             </div>
 
             <div class="col-md-6">
-              <input type="email" class="form-control" name="user_email" placeholder="Business Email" autocomplete="email" required>
+              <input type="email" class="form-control" name="user_email" placeholder="Contact Email" autocomplete="email" required>
             </div>
 
             <div class="col-12">
