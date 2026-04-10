@@ -277,6 +277,8 @@
 
   </div>
 
+  </section><!-- /Alt Features Section -->
+
 <section id="services" class="services section">
 
   <div class="container section-title" data-aos="fade-up">
@@ -1231,6 +1233,38 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const startedAtField = document.getElementById("form_started_at");
+    if (startedAtField) {
+      startedAtField.value = Date.now();
+    }
+
+    const header = document.getElementById("header");
+
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+      link.addEventListener("click", function (event) {
+        const targetId = this.getAttribute("href").substring(1);
+        const target = document.getElementById(targetId);
+
+        if (!target) return;
+
+        event.preventDefault();
+
+        const headerHeight = header ? header.offsetHeight : 0;
+        const extraOffset = 20;
+        const targetPosition =
+          target.getBoundingClientRect().top + window.pageYOffset - headerHeight - extraOffset;
+
+        window.scrollTo({
+          top: targetPosition,
+          behavior: "smooth"
+        });
+      });
+    });
+  });
+</script>
 
 </body>
 
