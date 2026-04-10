@@ -2769,3 +2769,14 @@ section,
 section {
   scroll-margin-top: 100px;
 }
+
+
+/* Fix scroll offset for fixed header */
+#contact,
+#about,
+#services,
+#portfolio,
+#faq,
+#why-us {
+  scroll-margin-top: 100px;
+}
